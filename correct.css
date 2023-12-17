@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(224, 219, 219);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  margin-top: 50px;
+}
+
+.header-card {
+  background: blue;
+  width: 550px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.header-card h1 {
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.header-card p {
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  line-height: 163%;
+}
+
+#hero {
+  margin-top: 30px;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-card {
+  width: 180px;
+  height: 30px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-card:hover {
+  background: rgb(251, 137, 6);
+  & * {
+    color: white;
+  }
+}
+
+.hero-card2 {
+  width: 180px;
+  height: 30px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.hero-card2:hover {
+  background: rgb(251, 137, 6);
+  & * {
+    color: white;
+  }
+}
+
+.hero-card p {
+  color: blue;
+  font-weight: 900px;
+}
+
+.hero-card p:hover {
+}
+
+.hero-card2 p {
+  color: blue;
+  font-weight: 600px;
+}
+
+.hiro-card {
+  width: 550px;
+  height: 40px;
+  border: 1.5px solid white;
+  background: rgb(59, 59, 137);
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiro-card p {
+  color: white;
+  padding-left: 30px;
+  font-weight: 600;
+}
+
+.hiro {
+  display: flex;
+  align-items: center;
+}
+
+#title {
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.title-card {
+  width: 70px;
+  height: 35px;
+  border: 1px solid rgb(149, 177, 233);
+  background: rgb(149, 177, 233);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-card p {
+  font-weight: 530;
+}
+
+.title-card2 {
+  width: 473px;
+  height: 35px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 7px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

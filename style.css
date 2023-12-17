@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(224, 219, 219);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  margin-top: 50px;
+}
+
+.header-card {
+  background: blue;
+  width: 550px;
+  height: 200px;
+  border-radius: 18px;
+}
+
+.header-card h1 {
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.header-card p {
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  line-height: 163%;
+}
+
+#hero {
+  margin-top: 30px;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-card {
+  width: 180px;
+  height: 30px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-card:hover {
+  background: rgb(251, 137, 6);
+  & * {
+    color: white;
+  }
+}
+
+.hero-card2 {
+  width: 180px;
+  height: 30px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.hero-card2:hover {
+  background: rgb(251, 137, 6);
+  & * {
+    color: white;
+  }
+}
+
+.hero-card p {
+  color: blue;
+  font-weight: 900px;
+}
+
+.hero-card p:hover {
+}
+
+.hero-card2 p {
+  color: blue;
+  font-weight: 600px;
+}
+
+.hiro-card {
+  width: 550px;
+  height: 40px;
+  border: 1.5px solid white;
+  background: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hiro-card p {
+  color: blue;
+  padding-left: 30px;
+}
+
+.hiro {
+  display: flex;
+  align-items: center;
+}
+
+.option {
+  outline: none;
+}
+
+.semester-card {
+  width: 550px;
+  height: 40px;
+  background: rgb(59, 59, 137);
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.semester-card p {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+#manas {
+  margin-top: 20px;
+}
+
+.manas {
+  display: flex;
+  align-items: center;
+}
+
+.manas-card {
+  width: 400px;
+  height: 70px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 7px;
+}
+
+.manas2 {
+  width: 135px;
+  height: 70px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.manas-card p {
+  font-weight: 550;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.manas2 p {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#manas {
+  margin-top: 20px;
+}
+
+.manas {
+  display: flex;
+  align-items: center;
+}
+
+.manas-card {
+  width: 400px;
+  height: 70px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 7px;
+}
+
+.manas2 {
+  width: 135px;
+  height: 70px;
+  border: 1px solid white;
+  background: rgb(221, 237, 255);
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.manas-card p {
+  font-weight: 550;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.manas2 p {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}

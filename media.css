@@ -1,0 +1,64 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .header-card {
+    width: 527px;
+  }
+  .semester-card {
+    width: 517px;
+  }
+}
+@media (max-width: 451px) {
+  .header-card {
+    width: 399px;
+  }
+  .semester-card {
+    width: 399px;
+  }
+}
+@media (max-width: 400px) {
+  .header-card {
+    width: 360px;
+  }
+  .semester-card {
+    width: 360px;
+  }
+  .manas-card p {
+    font-weight: 550;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+  .hero-card2 {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .semester-card {
+    width: 336px;
+  }
+  .header-card {
+    width: 336px;
+  }
+}
+@media (max-width: 320px) {
+}
+/* 
+* {
+  border: 1px solid red;
+} */
